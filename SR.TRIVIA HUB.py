@@ -1,8 +1,6 @@
 import discord
 from discord.ext import commands
 
-TOKEN = 'NTA4NTMwMDMxMjc5MDc5NDM1.DxB7Sw.Yz4zPUmx27Urz1QT8t9ALZwC-0U'
-
 client = commands.Bot(command_prefix'.')
 
 @client.event
@@ -34,4 +32,5 @@ async def a():
     embed.set_filed(name='Option 3'),value='0%',inline=False)
     embed.set_field(name='Best Answer'),value=':one:',inline=True)
 
-client.run(TOKEN)         
+
+client.run(os.getenv('Token'))
