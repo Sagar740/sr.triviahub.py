@@ -848,6 +848,7 @@ async def a(ctx):
     embed.add_field(name="Option 2", value="0%", inline=True)
     embed.add_field(name="Option 3", value="0%", inline=True)
     embed.add_field(name="Best Answer", value=":one:", inline=True)	
-    await client.say(embed=embed)
+    embed.set_image(url="https://cdn.discordapp.com/attachments/492929616755949579/531098955858051072/JPEG_20181229_111253.jpg", inline=True)
+	
 
 client.run(os.getenv('Token'))		
