@@ -843,7 +843,7 @@ async def a(ctx):
     embed = discord.Embed(title="Fetching Answer", description="", color=0x00ff00)
     embed.set_footer(text="©SR.LIVES STORE Made with ❤️ by S🅰🈂ℹL ®🅰N🅰#8333.")
 
-    embed.set_author(name="SR.TRIVIA HUB")
+    embed.set_author(name="SUGGESTED ANSWER")
     embed.add_field(name="Option 1", value="100%", inline=True)
     embed.add_field(name="Option 2", value="0%", inline=True)
     embed.add_field(name="Option 3", value="0%", inline=True)
