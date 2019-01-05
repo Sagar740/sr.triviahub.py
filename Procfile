@@ -1,1 +1,1 @@
-worker: python SR.TRIVIA HUB.py
+worker: python SR.TRIVIAHUB.py
