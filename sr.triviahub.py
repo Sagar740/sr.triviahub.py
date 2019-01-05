@@ -19,13 +19,13 @@ client.remove_command('help')
 
 async def status_task():
     while True:
-        await client.change_presence(game=discord.Game(name='with /help & SR.LIVES STORE  '))
+        await client.change_presence(game=discord.Game(name='with & SR.TRIVIA HUB  '))
         await asyncio.sleep(5)
         await client.change_presence(game=discord.Game(name='with '+str(len(set(client.get_all_members())))+' users'))
         await asyncio.sleep(5)
         await client.change_presence(game=discord.Game(name='in '+str(len(client.servers))+' servers'))
         await asyncio.sleep(5)
-        await client.change_presence(game=discord.Game(name='with Loco & HQ & BAZZINOW'))
+        await client.change_presence(game=discord.Game(name='with ALL TRIVIA ANSWER '))
         await asyncio.sleep(5)
 
 @client.event
@@ -840,7 +840,6 @@ async def on_member_remove(member):
 
 @client.command(pass_context=True)
 async def buy():
-           await client.say(' Thanks for using buy command , **__BUT YOU CAN ONLY BUY POINTS IN OUR OFFICIAL SERVER__** **if u are already in your official lives store server then proceed your buying process by typing `/buypoints`** (*type `/srhelp` for more information*).')
 @client.command(pass_context=True)
 async def buypoints():
            await client.say(' **Thank you for using this command !** Please keep in mind that you can cancel this process at any time with ***`/cancel`*** . You can check our current prices in the #rate-info channel !  **__What do you want to buy__** **Instant points or deluxe?** If instant then type ***`/instant`*** if :gem: then type ***`/deluxe`*** . Just write it to me :smiley: .')
