@@ -851,6 +851,14 @@ async def a(ctx):
     await client.delete_message(ctx.message)       
     await client.say(embed=embed)	
     
+@client.command(pass_context=True)
+async def a(ctx):
+    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Time Up For Question", color=0x00ff00)
+    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by ▀▄▀▄▀▄[ RI▀█▀esh]▄▀▄▀▄▀#2150.")
+
+    embed.set_author(name="")
+    embed.add_field(name="Time Up Alert", value="10 Sec Time Up Guys⏱️", inline=True)
+	
 client.run(os.getenv('Token'))
 
 
