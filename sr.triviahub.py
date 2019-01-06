@@ -848,7 +848,7 @@ async def a(ctx):
     embed.add_field(name="**__Option 2__**", value="0", inline=True)   
     embed.add_field(name="**__Option 3__**", value="0", inline=True)
 	
-	
+    await client.say(embed=embed)	
 
 client.run(os.getenv('Token'))
 
