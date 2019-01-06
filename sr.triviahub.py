@@ -844,7 +844,7 @@ async def a(ctx):
     embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by S🅰🈂ℹL ®🅰N🅰#8333.")
 
     embed.set_author(name="")
-    embed.add_field(name="**__Option 1__**", value="20", inline=True)
+    embed.add_field(name="**__Option 1__**", value="20:white_check_mark:  ", inline=True)
     embed.add_field(name="**__Option 2__**", value="0", inline=True)   
     embed.add_field(name="**__Option 3__**", value="0", inline=True)
     embed.add_field(name="**__Best Answer__**", value=":one:", inline=True)	
