@@ -840,7 +840,7 @@ async def on_member_remove(member):
 
 @client.command(pass_context=True)
 async def a(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB", description="Fetching Answer", color=0x00ff00)
+    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer", color=0x00ff00)
     embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by S🅰🈂ℹL ®🅰N🅰#8333.")
 
     embed.set_author(name="")
