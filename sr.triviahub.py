@@ -848,9 +848,11 @@ async def a(ctx):
     embed.add_field(name="**__Option 2__**", value="0", inline=True)   
     embed.add_field(name="**__Option 3__**", value="0", inline=True)
     embed.add_field(name="**__Best Answer__**", value=":one:", inline=True)	
-    await client.say(embed=embed)	
-
+    await client.delete_message(ctx.message)       
+	await client.say(embed=embed)	
+    
 client.run(os.getenv('Token'))
+
 
 
 
