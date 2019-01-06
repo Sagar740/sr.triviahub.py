@@ -847,7 +847,7 @@ async def a(ctx):
     embed.add_field(name="Site- https://discordapp.com/api/oauth2/authorize?client_id=508868117661745153&permissions=8&scope=bot", value="Thanks for adding our bot", inline=True)
     await client.say(embed=embed)
 
-
-
-
 client.run(os.getenv('Token'))
+
+
+
