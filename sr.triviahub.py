@@ -838,9 +838,9 @@ async def on_member_remove(member):
   msg = "Goodbye {}".format(member.mention)
   await client.send_message(channel, msg) 
 
+
+
+
+
+
 client.run(os.getenv('Token'))
-
-
-
-
-		
