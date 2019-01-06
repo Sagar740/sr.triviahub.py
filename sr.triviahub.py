@@ -851,4 +851,7 @@ async def a(ctx):
   await client.say(embed=embed)
 	
 client.run(os.getenv('Token'))
+
+
+
 		
