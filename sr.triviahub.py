@@ -838,7 +838,14 @@ async def on_member_remove(member):
   msg = "Goodbye {}".format(member.mention)
   await client.send_message(channel, msg) 
 
+@client.command(pass_context=True)
+async def a(ctx):
+    embed = discord.Embed(title="Information about owner", description="Bot Name- SR.LIVES STORE", color=0x00ff00)
+    embed.set_footer(text="©SR.LIVES STORE Made with ❤️ by S🅰🈂ℹL ®🅰N🅰#8333.")
 
+    embed.set_author(name=" Bot OwnerName- @S🅰🈂ℹL ®🅰N🅰 {DEVELOPER}#8333")
+    embed.add_field(name="Site- https://discordapp.com/api/oauth2/authorize?client_id=508868117661745153&permissions=8&scope=bot", value="Thanks for adding our bot", inline=True)
+    await client.say(embed=embed)
 
 
 
