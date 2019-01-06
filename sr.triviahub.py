@@ -858,8 +858,9 @@ async def a(ctx):
 
     embed.set_author(name="")
     embed.add_field(name="Time Up Alert", value="10 Sec Time Up Guys⏱️", inline=True)
-await client.delete_message(ctx.message)       
+    await client.delete_message(ctx.message)       
     await client.say(embed=embed)	
+
 client.run(os.getenv('Token'))
 
 
