@@ -852,7 +852,7 @@ async def a(ctx):
     await client.say(embed=embed)	
     
 @client.command(pass_context=True)
-async def a(ctx):
+async def t(ctx):
     embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Time Up For Question", color=0x00ff00)
     embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by ▀▄▀▄▀▄[ RI▀█▀esh]▄▀▄▀▄▀#2150.")
 
