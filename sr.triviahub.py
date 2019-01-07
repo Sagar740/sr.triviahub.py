@@ -840,13 +840,13 @@ async def on_member_remove(member):
 
 @client.command(pass_context=True)
 async def a(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer", color=0x00ff00)
+    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
     embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by ▀▄▀▄▀▄[ RI▀█▀esh]▄▀▄▀▄▀#2150.")
 
     embed.set_author(name="")
-    embed.add_field(name="**__Option 1__**", value="20", inline=True)
-    embed.add_field(name="**__Option 2__**", value="0", inline=True)   
-    embed.add_field(name="**__Option 3__**", value="0", inline=True)
+    embed.add_field(name="**__Option 1__**", value="100%", inline=True)
+    embed.add_field(name="**__Option 2__**", value="0%", inline=True)   
+    embed.add_field(name="**__Option 3__**", value="0%", inline=True)
     embed.add_field(name="**__Best Answer__**", value=":one:", inline=True)	
     await client.delete_message(ctx.message)       
     await client.say(embed=embed)	
