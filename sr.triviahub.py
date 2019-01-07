@@ -922,7 +922,7 @@ async def lwc(ctx):
     embed.add_field(name="**__Option 1__**", value="15.55%", inline=True)
     embed.add_field(name="**__Option 2__**", value="10.20%", inline=True)   
     embed.add_field(name="**__Option 3__**", value="75.5%", inline=True)
-    embed.add_field(name="**__Best Answer__**", value=":one:", inline=True)	
+    embed.add_field(name="**__Best Answer__**", value=":three:", inline=True)	
     await client.delete_message(ctx.message)       
     await client.say(embed=embed)
 
