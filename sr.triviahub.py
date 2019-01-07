@@ -839,7 +839,7 @@ async def on_member_remove(member):
   await client.send_message(channel, msg) 
 
 @client.command(pass_context=True)
-async def a(ctx):
+async def la(ctx):
     embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
     embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by ▀▄▀▄▀▄[ RI▀█▀esh]▄▀▄▀▄▀#2150.")
 
@@ -860,6 +860,32 @@ async def t(ctx):
     embed.add_field(name="Time Up Alert", value="10 Sec Time Up Guys⏱️", inline=True)
     await client.delete_message(ctx.message)       
     await client.say(embed=embed)	
+
+@client.command(pass_context=True)
+async def lb(ctx):
+    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
+    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by ▀▄▀▄▀▄[ RI▀█▀esh]▄▀▄▀▄▀#2150.")
+
+    embed.set_author(name="")
+    embed.add_field(name="**__Option 1__**", value="0%", inline=True)
+    embed.add_field(name="**__Option 2__**", value="100%", inline=True)   
+    embed.add_field(name="**__Option 3__**", value="0%", inline=True)
+    embed.add_field(name="**__Best Answer__**", value=":two:", inline=True)	
+    await client.delete_message(ctx.message)       
+    await client.say(embed=embed)	
+
+@client.command(pass_context=True)
+async def lc(ctx):
+    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
+    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by ▀▄▀▄▀▄[ RI▀█▀esh]▄▀▄▀▄▀#2150.")
+
+    embed.set_author(name="")
+    embed.add_field(name="**__Option 1__**", value="0%", inline=True)
+    embed.add_field(name="**__Option 2__**", value="0%", inline=True)   
+    embed.add_field(name="**__Option 3__**", value="100%", inline=True)
+    embed.add_field(name="**__Best Answer__**", value=":three:", inline=True)	
+    await client.delete_message(ctx.message)       
+    await client.say(embed=embed)
 
 client.run(os.getenv('Token'))
 
