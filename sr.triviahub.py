@@ -980,7 +980,7 @@ async def bwa(ctx):
 
 @client.command(pass_context=True)
 async def bwb(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
+    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Brainbazzi", color=0x00ff00)
     embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
 
     embed.set_author(name="")
@@ -994,6 +994,85 @@ async def bwb(ctx):
 @client.command(pass_context=True)
 async def bwc(ctx):
     embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Brainbazzi", color=0x00ff00)
+    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+
+    embed.set_author(name="")
+    embed.add_field(name="**__Option 1__**", value="15.55%", inline=True)
+    embed.add_field(name="**__Option 2__**", value="10.20%", inline=True)   
+    embed.add_field(name="**__Option 3__**", value="75.5%", inline=True)
+    embed.add_field(name="**__Best Answer__**", value=":three:", inline=True)	
+    await client.delete_message(ctx.message)       
+    await client.say(embed=embed)
+
+@client.command(pass_context=True)
+async def sa(ctx):
+    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
+    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+
+    embed.set_author(name="")
+    embed.add_field(name="**__Option 1__**", value="100%", inline=True)
+    embed.add_field(name="**__Option 2__**", value="0%", inline=True)   
+    embed.add_field(name="**__Option 3__**", value="0%", inline=True)
+    embed.add_field(name="**__Best Answer__**", value=":one:", inline=True)	
+    await client.delete_message(ctx.message)       
+    await client.say(embed=embed)	
+    
+
+@client.command(pass_context=True)
+async def sb(ctx):
+    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
+    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+
+    embed.set_author(name="")
+    embed.add_field(name="**__Option 1__**", value="0%", inline=True)
+    embed.add_field(name="**__Option 2__**", value="100%", inline=True)   
+    embed.add_field(name="**__Option 3__**", value="0%", inline=True)
+    embed.add_field(name="**__Best Answer__**", value=":two:", inline=True)	
+    await client.delete_message(ctx.message)       
+    await client.say(embed=embed)	
+
+@client.command(pass_context=True)
+async def sc(ctx):
+    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
+    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+
+    embed.set_author(name="")
+    embed.add_field(name="**__Option 1__**", value="0%", inline=True)
+    embed.add_field(name="**__Option 2__**", value="0%", inline=True)   
+    embed.add_field(name="**__Option 3__**", value="100%", inline=True)
+    embed.add_field(name="**__Best Answer__**", value=":three:", inline=True)	
+    await client.delete_message(ctx.message)       
+    await client.say(embed=embed)
+
+@client.command(pass_context=True)
+async def swa(ctx):
+    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
+    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+
+    embed.set_author(name="")
+    embed.add_field(name="**__Option 1__**", value="85%", inline=True)
+    embed.add_field(name="**__Option 2__**", value="5%", inline=True)   
+    embed.add_field(name="**__Option 3__**", value="10%", inline=True)
+    embed.add_field(name="**__Best Answer__**", value=":one:", inline=True)	
+    await client.delete_message(ctx.message)       
+    await client.say(embed=embed)
+
+@client.command(pass_context=True)
+async def swb(ctx):
+    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Swoo Trivia ", color=0x00ff00)
+    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+
+    embed.set_author(name="")
+    embed.add_field(name="**__Option 1__**", value="5.75%", inline=True)
+    embed.add_field(name="**__Option 2__**", value="90.25%", inline=True)   
+    embed.add_field(name="**__Option 3__**", value="5.75%", inline=True)
+    embed.add_field(name="**__Best Answer__**", value=":two:", inline=True)	
+    await client.delete_message(ctx.message)       
+    await client.say(embed=embed)
+
+@client.command(pass_context=True)
+async def swc(ctx):
+    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
     embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
 
     embed.set_author(name="")
