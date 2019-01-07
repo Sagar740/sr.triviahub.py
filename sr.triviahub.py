@@ -323,7 +323,7 @@ async def warn(ctx, userName: discord.User, *, message:str):
 @client.command(pass_context=True)
 async def ownerinfo(ctx):
     embed = discord.Embed(title="Information about owner", description="Bot Name- SR.LIVES STORE", color=0x00ff00)
-    embed.set_footer(text="©SR.LIVES STORE Made with ❤️ by S🅰🈂ℹL ®🅰N🅰#8333.")
+    embed.set_footer(text="©SR.LIVES STORE Made with ❤️ by [RI▀█▀esh]#2150 & Sahil ®ana#8331 .")
 
     embed.set_author(name=" Bot OwnerName- @S🅰🈂ℹL ®🅰N🅰 {DEVELOPER}#8333")
     embed.add_field(name="Site- https://discordapp.com/api/oauth2/authorize?client_id=508868117661745153&permissions=8&scope=bot", value="Thanks for adding our bot", inline=True)
@@ -841,7 +841,7 @@ async def on_member_remove(member):
 @client.command(pass_context=True)
 async def la(ctx):
     embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by ▀▄▀▄▀▄[ RI▀█▀esh]▄▀▄▀▄▀#2150.")
+    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by [RI▀█▀esh]#2150 & Sahil ®ana#8331 .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="100%", inline=True)
@@ -854,7 +854,7 @@ async def la(ctx):
 @client.command(pass_context=True)
 async def t(ctx):
     embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Time Up For Question", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by ▀▄▀▄▀▄[ RI▀█▀esh]▄▀▄▀▄▀#2150.")
+    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by [RI▀█▀esh]#2150 & Sahil ®ana#8331 .")
 
     embed.set_author(name="")
     embed.add_field(name="Time Up Alert", value="10 Sec Time Up Guys⏱️", inline=True)
@@ -864,7 +864,7 @@ async def t(ctx):
 @client.command(pass_context=True)
 async def lb(ctx):
     embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by ▀▄▀▄▀▄[ RI▀█▀esh]▄▀▄▀▄▀#2150.")
+    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by [RI▀█▀esh]#2150 & Sahil ®ana#8331 .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="0%", inline=True)
@@ -877,7 +877,7 @@ async def lb(ctx):
 @client.command(pass_context=True)
 async def lc(ctx):
     embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by ▀▄▀▄▀▄[ RI▀█▀esh]▄▀▄▀▄▀#2150.")
+    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by [RI▀█▀esh]#2150 & Sahil ®ana#8331.")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="0%", inline=True)
@@ -890,7 +890,7 @@ async def lc(ctx):
 @client.command(pass_context=True)
 async def lwa(ctx):
     embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by ▀▄▀▄▀▄[ RI▀█▀esh]▄▀▄▀▄▀#2150.")
+    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by [RI▀█▀esh]#2150 & Sahil ®ana#8331 .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="85%", inline=True)
@@ -903,7 +903,7 @@ async def lwa(ctx):
 @client.command(pass_context=True)
 async def lwb(ctx):
     embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by ▀▄▀▄▀▄[ RI▀█▀esh]▄▀▄▀▄▀#2150.")
+    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by [RI▀█▀esh]#2150 & Sahil ®ana#8331.")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="5.75%", inline=True)
@@ -916,7 +916,7 @@ async def lwb(ctx):
 @client.command(pass_context=True)
 async def lwc(ctx):
     embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by ▀▄▀▄▀▄[ RI▀█▀esh]▄▀▄▀▄▀#2150.")
+    embed.set_footer(text="©SR.TRIVIA HUB Made with ❤️ by [ RI▀█▀esh]#2150 & Sahil ®ana#8333.")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="15.55%", inline=True)
