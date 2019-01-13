@@ -19,13 +19,13 @@ client.remove_command('help')
 
 async def status_task():
     while True:
-        await client.change_presence(game=discord.Game(name='with & MAKE IN INDIA | /help '))
+        await client.change_presence(game=discord.Game(name='with MAKE IN INDIA | /help '))
         await asyncio.sleep(5)
         await client.change_presence(game=discord.Game(name='with '+str(len(set(client.get_all_members())))+' users'))
         await asyncio.sleep(5)
         await client.change_presence(game=discord.Game(name='in '+str(len(client.servers))+' servers'))
         await asyncio.sleep(5)
-        await client.change_presence(game=discord.Game(name='WATHING THIS SERVER! '))
+        await client.change_presence(game=discord.Game(name='watching this server !! '))
         await asyncio.sleep(5)
 
 @client.event
@@ -322,11 +322,11 @@ async def warn(ctx, userName: discord.User, *, message:str):
 
 @client.command(pass_context=True)
 async def ownerinfo(ctx):
-    embed = discord.Embed(title="Information about owner", description="Bot Name- SR.LIVES STORE", color=0x00ff00)
-    embed.set_footer(text="©SR.LIVES STORE Made with 💓 by { S🅰🈂ℹL ®🅰N🅰 } .")
+    embed = discord.Embed(title="Information about owner", description="Bot Name- MAKE IN INDIA", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by Ritesh#2150.")
 
-    embed.set_author(name=" Bot OwnerName- @S🅰🈂ℹL ®🅰N🅰 {DEVELOPER}#8333")
-    embed.add_field(name="Site- https://discord.gg/fcPYEJg", value="Thanks for joining our server", inline=True)
+    embed.set_author(name=" Bot OwnerName- Ritesh#2150")
+    embed.add_field(name="Site- https://discord.gg/TxFPxvv ", value="Thanks for joining our server", inline=True)
     await client.say(embed=embed)
     
 @client.command(pass_context = True)
@@ -420,7 +420,7 @@ async def help(ctx):
     embed.add_field(name = '``Our Help Server Link`` ',value ='https://discord.gg/pCWy7PU',inline = False)
     embed.add_field(name = '/modhelp ',value ='Explaines all the commands which are only usable by Those who has moderation permissions. Like- Manage Nicknames, Manage Messages, Kick/Ban Members,etc.',inline = False)
     embed.add_field(name = '/generalhelp ',value ='Explaines all the commands which are usable by everyone.',inline = False)
-    embed.add_field(name = '/srliveshelp ',value ='Explaines all the commands which are usable by lives store.',inline = False)
+    embed.add_field(name = 'make in india ',value ='Explaines all the commands which are usable by lives store.',inline = False)
     await client.send_message(author,embed=embed)
     await client.say('📨 Check DMs For Information')
 @client.command(pass_context = True)
@@ -1059,7 +1059,7 @@ async def swa(ctx):
 
 @client.command(pass_context=True)
 async def swb(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Swoo Trivia ", color=0x00ff00)
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Swoo Trivia ", color=0x00ff00)
     embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
 
     embed.set_author(name="")
@@ -1072,8 +1072,8 @@ async def swb(ctx):
 
 @client.command(pass_context=True)
 async def swc(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by { Ritesh } .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="15.55%", inline=True)
