@@ -19,13 +19,13 @@ client.remove_command('help')
 
 async def status_task():
     while True:
-        await client.change_presence(game=discord.Game(name='with & SR.TRIVIA HUB | /help '))
+        await client.change_presence(game=discord.Game(name='with & MAKE IN INDIA | /help '))
         await asyncio.sleep(5)
         await client.change_presence(game=discord.Game(name='with '+str(len(set(client.get_all_members())))+' users'))
         await asyncio.sleep(5)
         await client.change_presence(game=discord.Game(name='in '+str(len(client.servers))+' servers'))
         await asyncio.sleep(5)
-        await client.change_presence(game=discord.Game(name='with ALL TRIVIA ANSWER '))
+        await client.change_presence(game=discord.Game(name='WATHING THIS SERVER! '))
         await asyncio.sleep(5)
 
 @client.event
