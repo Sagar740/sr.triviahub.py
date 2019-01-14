@@ -993,8 +993,8 @@ async def bwb(ctx):
 
 @client.command(pass_context=True)
 async def bwc(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Brainbazzi", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Brainbazzi", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by *╔═══❖•ೋ°☆《●RiTEsH ●》☆°ೋ•❖═══╗*#2150 .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="15.55%", inline=True)
@@ -1006,8 +1006,8 @@ async def bwc(ctx):
 
 @client.command(pass_context=True)
 async def sa(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by *╔═══❖•ೋ°☆《●RiTEsH ●》☆°ೋ•❖═══╗*#2150 .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="100%", inline=True)
@@ -1020,8 +1020,8 @@ async def sa(ctx):
 
 @client.command(pass_context=True)
 async def sb(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by*╔═══❖•ೋ°☆《●RiTEsH ●》☆°ೋ•❖═══╗*#2150  .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="0%", inline=True)
@@ -1033,8 +1033,8 @@ async def sb(ctx):
 
 @client.command(pass_context=True)
 async def sc(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by *╔═══❖•ೋ°☆《●RiTEsH ●》☆°ೋ•❖═══╗*#2150 .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="0%", inline=True)
@@ -1046,8 +1046,8 @@ async def sc(ctx):
 
 @client.command(pass_context=True)
 async def swa(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by *╔═══❖•ೋ°☆《●RiTEsH ●》☆°ೋ•❖═══╗*#2150 .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="85%", inline=True)
@@ -1060,7 +1060,7 @@ async def swa(ctx):
 @client.command(pass_context=True)
 async def swb(ctx):
     embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Swoo Trivia ", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by *╔═══❖•ೋ°☆《●RiTEsH ●》☆°ೋ•❖═══╗* .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="5.75%", inline=True)
@@ -1073,7 +1073,7 @@ async def swb(ctx):
 @client.command(pass_context=True)
 async def swc(ctx):
     embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Swoo Trivia", color=0x00ff00)
-    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by { Ritesh } .")
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by *╔═══❖•ೋ°☆《●RiTEsH ●》☆°ೋ•❖═══╗*#2150  .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="15.55%", inline=True)
