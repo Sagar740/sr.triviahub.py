@@ -41,19 +41,19 @@ async def on_ready():
         
 
 def is_owner(ctx):
-    return ctx.message.author.id == "528963594021502998, 527437998833532948"
+    return ctx.message.author.id == "532783109935071243,532783109935071243"
 
 def is_dark(ctx):
-    return ctx.message.author.id == "528963594021502998"
+    return ctx.message.author.id == "532783109935071243"
 
 def is_shreyas(ctx):
-    return ctx.message.author.id == "528963594021502998"
+    return ctx.message.author.id == "532783109935071243"
 
 def is_gameworld(ctx):
-    return ctx.message.author.id == "528963594021502998"
+    return ctx.message.author.id == "532783109935071243"
 
 def is_ranger(ctx):
-    return ctx.message.author.id == "528963594021502998"
+    return ctx.message.author.id == "532783109935071243"
 
 @client.command(pass_context = True)
 @commands.check(is_owner)
