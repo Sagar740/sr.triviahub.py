@@ -1200,8 +1200,8 @@ async def qlc(ctx):
     await client.delete_message(ctx.message)       
     await client.say(embed=embed)
 
-
 client.run(os.getenv('Token'))
+
 
 
 
