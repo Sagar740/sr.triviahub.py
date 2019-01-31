@@ -19,8 +19,7 @@ client.remove_command('help')
 
 async def status_task():
     while True:
-        await client.change_presence(game=discord.Game(name='with MAKE IN INDIA | /help '))
-        await asyncio.sleep(5)
+       
         await client.change_presence(game=discord.Game(name='with '+str(len(set(client.get_all_members())))+' users'))
         await asyncio.sleep(5)
         await client.change_presence(game=discord.Game(name='in '+str(len(client.servers))+' servers'))
@@ -323,7 +322,7 @@ async def warn(ctx, userName: discord.User, *, message:str):
 @client.command(pass_context=True)
 async def ownerinfo(ctx):
     embed = discord.Embed(title="Information about owner", description="Bot Name- MAKE IN INDIA", color=0x00ff00)
-    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by Ritesh#2150.")
+    embed.set_footer(text="©TRIVIA ADDICTS Made with 💓 by Jordon Verloc#6456.")
 
     embed.set_author(name=" Bot OwnerName- Ritesh#2150")
     embed.add_field(name="Site- https://discord.gg/TxFPxvv ", value="Thanks for joining our server", inline=True)
@@ -420,7 +419,7 @@ async def help(ctx):
     embed.add_field(name = '``Our Help Server Link`` ',value ='https://discord.gg/pCWy7PU',inline = False)
     embed.add_field(name = '/modhelp ',value ='Explaines all the commands which are only usable by Those who has moderation permissions. Like- Manage Nicknames, Manage Messages, Kick/Ban Members,etc.',inline = False)
     embed.add_field(name = '/generalhelp ',value ='Explaines all the commands which are usable by everyone.',inline = False)
-    embed.add_field(name = 'make in india ',value ='Explaines all the commands which are usable by lives store.',inline = False)
+    embed.add_field(name = 'Trivia Addicts ',value ='Explaines all the commands which are usable by lives store.',inline = False)
     await client.send_message(author,embed=embed)
     await client.say('📨 Check DMs For Information')
 @client.command(pass_context = True)
