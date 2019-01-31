@@ -321,11 +321,11 @@ async def warn(ctx, userName: discord.User, *, message:str):
 
 @client.command(pass_context=True)
 async def ownerinfo(ctx):
-    embed = discord.Embed(title="Information about owner", description="Bot Name- MAKE IN INDIA", color=0x00ff00)
+    embed = discord.Embed(title="Information about owner", description="Bot Name-Trivia Addicts 🥐 ", color=0x00ff00)
     embed.set_footer(text="©TRIVIA ADDICTS Made with 💓 by Jordon Verloc#6456.")
 
-    embed.set_author(name=" Bot OwnerName- Ritesh#2150")
-    embed.add_field(name="Site- https://discord.gg/TxFPxvv ", value="Thanks for joining our server", inline=True)
+    embed.set_author(name=" Bot OwnerName- Jordon Verloc#6456")
+    embed.add_field(name="Site- https://discord.gg/tV5KJPP ", value="Thanks for joining our server", inline=True)
     await client.say(embed=embed)
     
 @client.command(pass_context = True)
@@ -419,7 +419,7 @@ async def help(ctx):
     embed.add_field(name = '``Our Help Server Link`` ',value ='https://discord.gg/pCWy7PU',inline = False)
     embed.add_field(name = '/modhelp ',value ='Explaines all the commands which are only usable by Those who has moderation permissions. Like- Manage Nicknames, Manage Messages, Kick/Ban Members,etc.',inline = False)
     embed.add_field(name = '/generalhelp ',value ='Explaines all the commands which are usable by everyone.',inline = False)
-    embed.add_field(name = 'Trivia Addicts ',value ='Explaines all the commands which are usable by lives store.',inline = False)
+    embed.add_field(name = 'Trivia Addicts ',value ='Thanks For Joining This Server Trivia Addicts..!!.',inline = False)
     await client.send_message(author,embed=embed)
     await client.say('📨 Check DMs For Information')
 @client.command(pass_context = True)
