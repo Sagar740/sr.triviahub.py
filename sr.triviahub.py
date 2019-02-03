@@ -13,7 +13,7 @@ from discord import Game, Embed, Color, Status, ChannelType
 
 
 Forbidden= discord.Embed(title="Permission Denied", description="1) Please check whether you have permission to perform this action or not. \n2) Please check whether my role has permission to perform this action in this channel or not. \n3) Please check my role position.", color=0x00ff00)
-client = Bot(description="SAHIL RANA Bot is best", command_prefix="/", pm_help = True)
+client = Bot(description="SAHIL RANA Bot is best", command_prefix=">", pm_help = True)
 client.remove_command('help')
 
 
@@ -21,7 +21,7 @@ async def status_task():
     while True:
        
         
-        await client.change_presence(game=discord.Game(name='in TA Server! '))
+        await client.change_presence(game=discord.Game(name='in MAKE IN INDIA '))
         await asyncio.sleep(5)
 
 @client.event
@@ -318,11 +318,11 @@ async def warn(ctx, userName: discord.User, *, message:str):
 
 @client.command(pass_context=True)
 async def ownerinfo(ctx):
-    embed = discord.Embed(title="Information about owner", description="Bot Name-Trivia Addicts 🥐 ", color=0x00ff00)
-    embed.set_footer(text="©TRIVIA ADDICTS Made with 💓 by Jordon Verloc#6456.")
+    embed = discord.Embed(title="Information about owner", description="Bot Name-MAKE IN INDIA ", color=0x00ff00)
+    embed.set_footer(text="©TRIVIA ADDICTS Made with 💓 by steevo#0211.")
 
-    embed.set_author(name=" Bot OwnerName- Jordon Verloc#6456")
-    embed.add_field(name="Site- https://discord.gg/tV5KJPP ", value="Thanks for joining our server", inline=True)
+    embed.set_author(name=" Bot OwnerName- MAKE IN INDIA")
+    embed.add_field(name="Site- https://discord.gg/Dmz9cVC ", value="Thanks for joining our server", inline=True)
     await client.say(embed=embed)
     
 @client.command(pass_context = True)
@@ -413,10 +413,10 @@ async def help(ctx):
     embed = discord.Embed(color = discord.Color((r << 16) + (g << 8) + b))
     embed.set_author(name='Help')
     embed.set_image(url = 'https://image.ibb.co/caM2BK/help.gif')
-    embed.add_field(name = '``Our Help Server Link`` ',value ='https://discord.gg/tV5KJP ',inline = False)
-    embed.add_field(name = '/modhelp ',value ='Explaines all the commands which are only usable by Those who has moderation permissions. Like- Manage Nicknames, Manage Messages, Kick/Ban Members,etc.',inline = False)
-    embed.add_field(name = '/generalhelp ',value ='Explaines all the commands which are usable by everyone.',inline = False)
-    embed.add_field(name = 'Trivia Addicts ',value ='Thanks For Joining This Server Trivia Addicts..!!.',inline = False)
+    embed.add_field(name = '``Our Help Server Link`` ',value ='https://discord.gg/Dmz9cVC ',inline = False)
+    embed.add_field(name = '>modhelp ',value ='Explaines all the commands which are only usable by Those who has moderation permissions. Like- Manage Nicknames, Manage Messages, Kick/Ban Members,etc.',inline = False)
+    embed.add_field(name = '>generalhelp ',value ='Explaines all the commands which are usable by everyone.',inline = False)
+    embed.add_field(name = 'MAKE IN INDIA ',value ='Thanks For Joining This Server Trivia Addicts..!!.',inline = False)
     await client.send_message(author,embed=embed)
     await client.say('📨 Check DMs For Information')
 @client.command(pass_context = True)
@@ -836,8 +836,8 @@ async def on_member_remove(member):
 
 @client.command(pass_context=True)
 async def la(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Loco", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by steevo#0211.")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="100%", inline=True)
@@ -849,8 +849,8 @@ async def la(ctx):
     
 @client.command(pass_context=True)
 async def t(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Time Up For Question", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Time Up For Question", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by steevo#0211 .")
     embed.set_author(name="")
     embed.add_field(name="Time Up Alert", value="10 Sec Time Up Guys⏱️", inline=True)
     await client.delete_message(ctx.message)       
@@ -858,8 +858,8 @@ async def t(ctx):
 
 @client.command(pass_context=True)
 async def lb(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Loco", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by steevo#0211.")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="0%", inline=True)
@@ -871,8 +871,8 @@ async def lb(ctx):
 
 @client.command(pass_context=True)
 async def lc(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Loco", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by steevo#0211 .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="0%", inline=True)
@@ -884,8 +884,8 @@ async def lc(ctx):
 
 @client.command(pass_context=True)
 async def lwa(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Loco", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by steevo#0211 .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="85%", inline=True)
@@ -897,8 +897,8 @@ async def lwa(ctx):
 
 @client.command(pass_context=True)
 async def lwb(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Loco", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by steevo#0211 .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="5.75%", inline=True)
@@ -910,8 +910,8 @@ async def lwb(ctx):
 
 @client.command(pass_context=True)
 async def lwc(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Loco", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Loco", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by steevo#0211.")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="15.55%", inline=True)
@@ -923,8 +923,8 @@ async def lwc(ctx):
 
 @client.command(pass_context=True)
 async def ba(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Brainbazzi", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Brainbazzi", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by steevo#0211 .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="100%", inline=True)
@@ -937,8 +937,8 @@ async def ba(ctx):
 
 @client.command(pass_context=True)
 async def bb(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Brainbazzi", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Brainbazzi", color=0x00ff00)
+    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by steevo#0211 .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="0%", inline=True)
@@ -950,8 +950,8 @@ async def bb(ctx):
 
 @client.command(pass_context=True)
 async def bc(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Brainbazzi", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Brainbazzi", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by steevo#0211.")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="0%", inline=True)
@@ -963,8 +963,8 @@ async def bc(ctx):
 
 @client.command(pass_context=True)
 async def bwa(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Brainbazzi", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Brainbazzi", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by steevo#0211 .")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="85%", inline=True)
@@ -976,8 +976,8 @@ async def bwa(ctx):
 
 @client.command(pass_context=True)
 async def bwb(ctx):
-    embed = discord.Embed(title="**SR.TRIVIA HUB**", description="Fetching Answer For Brainbazzi", color=0x00ff00)
-    embed.set_footer(text="©SR.TRIVIA HUB Made with 💓 by { Sahil & Ritesh } .")
+    embed = discord.Embed(title="**MAKE IN INDIA**", description="Fetching Answer For Brainbazzi", color=0x00ff00)
+    embed.set_footer(text="©MAKE IN INDIA Made with 💓 by steevo#0211.")
 
     embed.set_author(name="")
     embed.add_field(name="**__Option 1__**", value="5.75%", inline=True)
